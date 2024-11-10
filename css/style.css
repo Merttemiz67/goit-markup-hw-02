@@ -41,6 +41,10 @@ body a {
     color: #404bbf;
 }
 
+.address {
+    font-style: normal;
+}
+
 .address-link {
     font-size: 16px;
     line-height: 1.5;
@@ -53,7 +57,6 @@ body a {
 .address-link:focus {
     color: #404bbf;
 }
-
 .main-tittle {
     background-color: #2e2f42;
 }
@@ -77,12 +80,13 @@ body a {
     cursor: pointer;
 }
 
-button:hover {
-    color: #404BBF;
+.button:hover {
+    background-color: #404BBF;
 }
 
-button:focus {
-    color: #404BBF;
+.button:focus {
+    background-color: #404BBF;/
+}
 }
 .explanation-tittle h3 {
     color: #2E2F42;
@@ -128,6 +132,10 @@ button:focus {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+}
+
+.member-item {
+    margin-bottom: 20px;
 }
 
 .our-section {
