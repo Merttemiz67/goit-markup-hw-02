@@ -6,8 +6,6 @@ body {
 
 body ul {
     list-style: none;
-    padding: 0;
-    margin: 0;
 }
 
 body a {
@@ -138,10 +136,6 @@ body a {
     color: #434455;
 }
 
-.member-item {
-    margin-bottom: 20px;
-}
-
 .our-section {
     color: #2E2F42;
     font-size: 36px;
@@ -199,4 +193,3 @@ footer {
 .studio-second {
     color: #F4F4FD;
 }
-
