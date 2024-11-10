@@ -1,5 +1,6 @@
 body {
-    color: #2E2F42;
+    color: #434455;
+    background-color: #FFFFFF;
     font-family: "Roboto", sans-serif;
 }
 
@@ -12,54 +13,82 @@ body a {
     color: #2E2F42;
     text-decoration: none;
 }
-
-.web {
+.logo {
     color: #4D5AE5;
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
     font-size: 18px;
-    line-height: 21px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 
 .studio {
     color: #2E2F42;
-    font-family: "Raleway", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
-    font-size: 18px;
-    line-height: 21px;
 }
 
-
-#nav-container-left ul li {
+.header-list {
     font-weight: 500;
     font-style: normal;
     font-size: 16px;
     line-height: 24px;
+    letter-spacing: 0.02em;
 }
 
-address {
+.header-list a :hover {
+    color: #404bbf;
+}
+
+.header-list a: :focus {
+    color: #404bbf;
+}
+
+.address {
     font-weight: 400;
     font-style: normal;
     font-size: 16px;
     line-height: 24px;
+    letter-spacing: 0.02em;
+}
+.address a:hover {
+    color: #404bbf;
 }
 
-address a {
+.address a:focus {
+    color: #404bbf;
+}
+
+.address a {
     color: #434455
 }
 
-.main-tittle {
+.h-one {
     color: #FFFFFF;
-    background-color: #2E2F42
-    ;
+    background-color: #2E2F42;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
 }
-button {
+
+.button {
     color: #FFFFFF;
     background-color: #4D5AE5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+}
+
+button :hover {
+    color: #404BBF;
+}
+
+button :focus {
+    color: #404BBF;
 }
 
 .explanation-tittle h3 {
@@ -114,6 +143,6 @@ footer p {
     font-weight: 400;
     line-height: 24px;
 }
-.studio-second {
+#studio-second {
     color: #F4F4FD;
 }
