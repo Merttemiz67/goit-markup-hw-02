@@ -87,7 +87,6 @@ body a {
 .button:focus {
     background-color: #404BBF;/
 }
-}
 .explanation-tittle h3 {
     color: #2E2F42;
     font-weight: 500;
@@ -102,10 +101,10 @@ body a {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+
 .team-member {
     background-color: #F4F4FD;
 }
-
 .our-team-h {
     font-size: 36px;
     line-height: 1.11;
