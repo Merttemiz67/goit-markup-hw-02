@@ -16,9 +16,7 @@ body a {
 .logo {
     color: #4D5AE5;
     font-family: "Raleway", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 700;
-    font-style: normal;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
@@ -31,45 +29,41 @@ body a {
 
 .header-list {
     font-weight: 500;
-    font-style: normal;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
+    color: #2E2F42;
+    text-decoration: none;
 }
 
-.header-list a :hover {
+.header-list:hover,
+.header-list:focus {
     color: #404bbf;
 }
 
-.header-list a: :focus {
-    color: #404bbf;
-}
-
-.address {
-    font-weight: 400;
-    font-style: normal;
+.address-link {
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
+    color: #434455;
+    text-decoration: none;
 }
-.address a:hover {
+
+.address-link:hover,
+.address-link:focus {
     color: #404bbf;
 }
 
-.address a:focus {
-    color: #404bbf;
-}
-
-.address a {
-    color: #434455
+.main-tittle {
+    background-color: #2e2f42;
 }
 
 .h-one {
     color: #FFFFFF;
-    background-color: #2E2F42;
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
+    letter-spacing: 0.02em;
 }
 
 .button {
@@ -83,49 +77,57 @@ body a {
     cursor: pointer;
 }
 
-button :hover {
+button:hover {
     color: #404BBF;
 }
 
-button :focus {
+button:focus {
     color: #404BBF;
 }
-
 .explanation-tittle h3 {
     color: #2E2F42;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 
 .explanation-tittle p {
     color: #434455;
     font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
-
 .team-member {
     background-color: #F4F4FD;
 }
 
 .our-team-h {
+    font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+    text-transform: capitalize;
 }
 
 .team-members {
     background-color: #FFFFFF;
 }
+
 .team-person {
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
-.job    {
+.job {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: #434455;
 }
 
 .our-section {
