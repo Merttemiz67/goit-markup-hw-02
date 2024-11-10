@@ -91,7 +91,7 @@ body a {
     background-color: #404BBF;/
 }
 
-.h3_example-class {
+.h3_part {
     color: #2E2F42;
     font-weight: 500;
     font-size: 20px;
@@ -99,7 +99,7 @@ body a {
     letter-spacing: 0.02em;
 }
 
-.p-style {
+.p-part {
     color: #434455;
     font-size: 16px;
     line-height: 1.5;
